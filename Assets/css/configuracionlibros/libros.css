@@ -1,0 +1,41 @@
+.libro_imagen_tb{
+    width: 20px;
+    height: 25px;
+}
+
+#libro_imagen {
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.view_nombre_autor {
+    font-weight: bold;
+    color: #003cff;
+}
+
+.view_descripcion_autor {
+    text-align: justify;
+}
+
+.__imagen_libro {
+    width: 100%;
+    max-width: 300px;
+    max-height: 450px;
+    border-radius: 1rem;
+    border: 1px solid #000000;
+    box-shadow: 0px 0px 3px 1px #6a6a6a;
+}
+
+.dis_tabla_contenido {
+    background-color: transparent !important;
+    color: gray !important;
+    padding: 0;
+}
+
+.dis_tabla_contenido.active {
+    background-color: transparent !important;
+    color: #0D6EFD !important;
+    font-weight: 700;
+    /* text-decoration: underline !important; */
+}
